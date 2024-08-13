@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch the turtlesim node -->
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+
+    <!-- Launch the move_to_goal node -->
+    <node name="move_to_goal" pkg="send_goal" type="goal.py" output="screen" />
+</launch>
